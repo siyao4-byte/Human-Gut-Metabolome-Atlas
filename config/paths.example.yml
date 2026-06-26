@@ -1,0 +1,19 @@
+# Copy this file to config/paths.yml and update paths for your local environment.
+# config/paths.yml is intentionally ignored by git.
+
+hgm_workbook: "path/to/HGM - Data Management System.xlsx"
+hgm_csv_export_dir: "path/to/HGM csv exports"
+annotation_root: "path/to/Dataset-Annotations"
+abundance_root: "path/to/Dataset-Abundances"
+lcms_root: "path/to/LCMS data"
+current_total_annotation_list: "path/to/Total-List-Of-Annotations.csv"
+npclassifier_cache: "path/to/npclassifier_cache.csv"
+crude_analysis_reference: "path/to/12 participant large scale crude extracts"
+annotation_merger_reference: "path/to/1-Annotation-Merger_v2.R"
+combined_dataset_reference: "path/to/1.1 Combining annotated datasets.R"
+
+# Optional external comparison resources
+hmdb_healthy_faecal_csv: "path/to/HMDB_healthy_with_PubChem_data_FINAL.csv"
+mimedb_pubchem_csv: "path/to/mimedb_with_appended_pubchem_cid_PubChem_data_FINAL_ones_with_CID.csv"
+mimedb_no_cid_csv: "path/to/mimedb_with_appended_pubchem_cid_PubChem_data_FINAL_ones_WITHOUT_CID.csv"
+mzmine_reprocessing_root: "path/to/mzmine reprocessing"

@@ -1,0 +1,69 @@
+# Paper 2 public-release guardrails
+
+# Manuscript prose not intended for public repository
+INTRODUCTION.md
+CONCLUSION.md
+DISCUSSION_REVISED_FOR_MAIN_PAPER.md
+DISCUSSION_REVISED_WITH_ENDNOTE_TEMP_CITATIONS.md
+figures/**/RESULTS.md
+figures/**/DISCUSSION.md
+figures/**/RESULTS-*.md
+figures/**/DISCUSSION-*.md
+figures/**/NIST-METADATA-STATS.md
+figures/**/ref.md
+figures/**/BH01-31-LINEAGE-SUMMARY.md
+figures/**/DONOR-WORKFLOW-SUMMARY.md
+
+# Raw, intermediate, QC, and local/private exports
+outputs/
+data/intermediate/
+data/processed/
+data/metadata/
+data/raw/
+data/external/
+data/private/
+data/README-private.md
+
+# Only the terminology ledger is intended for the public docs set
+docs/*
+!docs/terminology-ledger.md
+
+# Local path configuration; publish only config/paths.example.yml
+config/*
+config/paths.yml
+!config/paths.example.yml
+
+# Working manuscripts and local office exports
+*.docx
+Rplots.pdf
+%
+
+# Script caches and local generated files
+scripts/reference/
+scripts/04_figure1/04_investigate_complete_donor_workflow.R
+scripts/04_figure1/05_plot_bh01_31_lineage.R
+reference/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+
+# Superseded figure material
+figures/**/archive/
+
+# Keep curated release assets explicit
+!README.md
+!docs/terminology-ledger.md
+!config/paths.example.yml
+!scripts/
+!figures/**/CAPTION.md
+!figures/**/*.png
+!figures/**/*.pdf
+!figures/**/*.msp
+!supplementary_data/
+!libraries/
+
+# Never publish book-code-named figure exports.
+figures/**/*bh01*.png
+figures/**/*BH01*.png
